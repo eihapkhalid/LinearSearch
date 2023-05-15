@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Bl.Interfaces
 {
-    public interface IBusinessLayer
+    public interface IBusinessLayer<T>
     {
         int LinearSearch(int[] arr, int target);
     }
