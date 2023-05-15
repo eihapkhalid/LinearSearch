@@ -21,7 +21,7 @@ namespace LinearSearch
             var serviceProvider = services.BuildServiceProvider();
             #endregion
 
-                #region instance of UiHelper 
+            #region instance of UiHelper 
                 UiHelper uiHelper = new UiHelper
         (
             serviceProvider.GetService<IBusinessLayer<TbNumber>>(),
@@ -29,6 +29,8 @@ namespace LinearSearch
 
          );
                 #endregion
+
+            uiHelper.PerformLinearSearch();
             
         }
     }
