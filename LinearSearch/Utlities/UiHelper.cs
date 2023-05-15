@@ -22,7 +22,7 @@ namespace LinearSearch.Utlities
         }
         #endregion
 
-        
+        #region PerformLinearSearch
         public void PerformLinearSearch()
         {
             oTbNumber.numbers = new int[] { 7, 2, 5, 6, 3, 10 };
@@ -36,6 +36,7 @@ namespace LinearSearch.Utlities
             {
                 Console.WriteLine("The element was not found.");
             }
-        }
+        } 
+        #endregion
     }
 }

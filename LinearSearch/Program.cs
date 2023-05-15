@@ -28,10 +28,12 @@ namespace LinearSearch
             new TbNumber()
 
          );
-                #endregion
+            #endregion
 
+            #region LinearSearch Area
             uiHelper.PerformLinearSearch();
-            
+            #endregion
+
         }
     }
 }
