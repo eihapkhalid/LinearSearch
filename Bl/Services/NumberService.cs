@@ -11,7 +11,14 @@ namespace Bl.Services
     {
         public int LinearSearch(int[] arr, int target)
         {
-            throw new NotImplementedException();
+            for (int i = 0; i < arr.Length; i++)
+            {
+                if (arr[i] == target)
+                {
+                    return i; // Match found, returning the index of the element.
+                }
+            }
+            return -1; // No match found, returning -1.
         }
     }
 }
