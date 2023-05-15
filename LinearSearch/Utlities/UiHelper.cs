@@ -28,6 +28,14 @@ namespace LinearSearch.Utlities
             oTbNumber.numbers = new int[] { 7, 2, 5, 6, 3, 10 };
             oTbNumber.targetNumber = 6;
             int result = oNumberService.LinearSearch(oTbNumber.numbers, oTbNumber.targetNumber);
+            if (result != -1)
+            {
+                Console.WriteLine("Match found, returning the index of the element: " + result);
+            }
+            else
+            {
+                Console.WriteLine("The element was not found.");
+            }
         }
     }
 }
