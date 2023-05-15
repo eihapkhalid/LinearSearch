@@ -10,6 +10,7 @@ namespace Bl.Services
 {
     public class NumberService : Interfaces.IBusinessLayer<TbNumber>
     {
+        #region LinearSearch
         public int LinearSearch(int[] arr, int target)
         {
             for (int i = 0; i < arr.Length; i++)
@@ -20,6 +21,7 @@ namespace Bl.Services
                 }
             }
             return -1; // No match found, returning -1.
-        }
+        } 
+        #endregion
     }
 }
