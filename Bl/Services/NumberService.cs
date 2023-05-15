@@ -9,7 +9,7 @@ namespace Bl.Services
 {
     public class NumberService : IBusinessLayer
     {
-        public int LinearSearch()
+        public int LinearSearch(int[] arr, int target)
         {
             throw new NotImplementedException();
         }

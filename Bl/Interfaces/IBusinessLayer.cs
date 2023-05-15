@@ -8,6 +8,6 @@ namespace Bl.Interfaces
 {
     public interface IBusinessLayer
     {
-        int LinearSearch();
+        int LinearSearch(int[] arr, int target);
     }
 }
